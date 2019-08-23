@@ -1,0 +1,21 @@
+<package>
+    <id>com.shiftcmdk.betterreachability_0.3_iphoneos-arm</id>
+    <name>BetterReachability</name>
+    <version>0.3</version>
+    <compatibility>
+        <firmware>
+            <miniOS>11.0</miniOS>
+            <otherVersions>unsupported</otherVersions>
+        </firmware>
+    </compatibility>
+    <dependencies></dependencies>
+    <descriptionlist>
+        <description>Make Reachability more useful by scaling down the interface.</description>
+    </descriptionlist>
+    <screenshots>
+    </screenshots>
+    <changelog>
+        <change>Added an option to set a custom background image or color.</change>
+    </changelog>
+    <links></links>
+</package>
