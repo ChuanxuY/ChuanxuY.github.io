@@ -2,13 +2,22 @@
     <head>
         <title>this is a test</title>
         <script type ="text/javascript">
-            function Hello() {
-                 window.external.Hello();//getDebugPath()为c#方法
-                //alert("hello");
-             }
+                function printBill()
+                {
+                    if (!jsObj)
+                    {
+                        alert("请使用客户端操作");
+                        return;
+                    }
+                    var rows = $('#dt').datagrid("getSelections");
+                    
+                    jsObj.sendcode = rows[0].SendCode;
+                    
+                    jsObj.showtest();
+                }
         </script>
     </head>
     <body>
-        <button id="btn" onclick="Hello()">hello</button>
+        <button id="btn" onclick="printBill()">hello</button>
     </body>
 </html>
