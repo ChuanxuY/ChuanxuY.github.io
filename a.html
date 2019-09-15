@@ -1,12 +1,14 @@
-<html xmlns="http://www.w3.org/1999/xhtml" >
-<head runat="server">
-    <title>无标题页</title>
-</head>
-<body>
-    <form id="Form1" runat="server">
-    <div>
-    <a onclick="javascript:window.external.ShowForm()";>1</a>
-    </div>
-    </form>
-</body>
+<html>
+    <head>
+        <title>this is a test</title>
+        <script type ="text/javascript">
+            function Hello() {
+                 window.external.Hello();//getDebugPath()为c#方法
+                //alert("hello");
+             }
+        </script>
+    </head>
+    <body>
+        <button id="btn" onclick="Hello()">hello</button>
+    </body>
 </html>
